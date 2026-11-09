@@ -1,0 +1,16 @@
+[Unit]
+Description=Brain Network Tracker Web UI (Browser History Telemetry on :8780)
+Documentation=https://github.com/gustawdaniel/brain
+After=network-online.target tailscaled.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env python3 %h/.local/bin/network_tracker_server.py --port 8780
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+Nice=10
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,11 @@
+[Unit]
+Description=Periodic Brain Browser History Sync (every 3 minutes)
+Documentation=https://github.com/gustawdaniel/brain
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=3min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

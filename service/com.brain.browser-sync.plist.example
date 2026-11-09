@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.brain.browser-sync</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/usr/local/bin/browser_sync.py</string>
+        <string>--daemon</string>
+        <string>--interval</string>
+        <string>180</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/tmp</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>CLICKHOUSE_URL</key>
+        <string>http://localhost:8123</string>
+        <key>PYTHONUNBUFFERED</key>
+        <string>1</string>
+    </dict>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/browser-sync.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/browser-sync.err</string>
+</dict>
+</plist>

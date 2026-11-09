@@ -1,0 +1,103 @@
+{
+  "target": "network-tracker",
+  "repo": "gustawdaniel/network-tracker",
+  "files_count": 19,
+  "total_size_bytes": 137787,
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 1794,
+      "sha256": "e5bb671e2c220f3409dd82c30f49255eba3d1596142011e1adc5d23ec083d350"
+    },
+    {
+      "path": "Dockerfile",
+      "size": 200,
+      "sha256": "dc6e8ddc67d38b5166ced76c26d504f0c94e4a855041566ea556c2a9eeb5ad74"
+    },
+    {
+      "path": "LICENSE",
+      "size": 3077,
+      "sha256": "77e22acd975dbe5dc5c3b48d6bd84d0262971c139463e1f848203e67d8e86b1f"
+    },
+    {
+      "path": "Makefile",
+      "size": 879,
+      "sha256": "d560041934346fc9b3fae8a820bba98837ca20db8350337c0f3285861d708434"
+    },
+    {
+      "path": "README.md",
+      "size": 4905,
+      "sha256": "5961d97d38bb61fba1062cd863d12a93d4677787b1394c78c93df3805ee50693"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 863,
+      "sha256": "518f69d89ff25f7cdcfbaed937df7ead83ce5970739b443977958d18321e589f"
+    },
+    {
+      "path": "compose.yaml",
+      "size": 274,
+      "sha256": "ab050e89e27fedb87fa6b6f55a0e8c5338328945980bd88f3bfec8c82c93b18c"
+    },
+    {
+      "path": "web/index.html",
+      "size": 53836,
+      "sha256": "5c28816d462f2dd0f48b1b961ab5e669e3a804a3a0bc41cda082ce2d83e70f89"
+    },
+    {
+      "path": "service/brain-browser-sync.service",
+      "size": 389,
+      "sha256": "18bc9b80515ab65f600db5675be307879f32dd9f9bf3b96f0f6fd5c8c2c9d5b2"
+    },
+    {
+      "path": "service/brain-browser-sync.timer",
+      "size": 220,
+      "sha256": "ac1aeb870fdf44cd367247abe2f5a3d6dcd5711d480cee9bc8e01b5c3d45b045"
+    },
+    {
+      "path": "service/brain-network-web.service",
+      "size": 406,
+      "sha256": "f205eb6e339db8263d588f0a126da319a9d3d7541a162f10638cea3edefb7cdc"
+    },
+    {
+      "path": "service/brain-pihole-sync.service",
+      "size": 474,
+      "sha256": "812eae1ddd8d48574a39c369e744c3285f90c7794a1fc66a9e8d02710099dbf2"
+    },
+    {
+      "path": "service/brain-pihole-sync.timer",
+      "size": 222,
+      "sha256": "73d2d6d323d1eed05b38e5da427752c627fa90d592eb5c4cc011f776c1027282"
+    },
+    {
+      "path": "service/com.brain.browser-sync.plist.example",
+      "size": 992,
+      "sha256": "1cacaa1cf3865d266084d450f0fb34d0c7e7edca1c91119477f1d6d053674218"
+    },
+    {
+      "path": "src/browser_sync.py",
+      "size": 12850,
+      "sha256": "376eabc1a0bdab7494bd1a9693fd19ee9a895f9404e98f8618d5d0799eda9527"
+    },
+    {
+      "path": "src/pihole_sync.py",
+      "size": 10085,
+      "sha256": "07402c0eea3bf8957df9b6d56928cb48622ee51e0ef5d213d57ece3e735e350e"
+    },
+    {
+      "path": "src/server.py",
+      "size": 25692,
+      "sha256": "8c9073498304e345ca2820f13e47723b38bca14f9dd0981e82e728f80fd7553d"
+    },
+    {
+      "path": "src/takeout_analyzer.py",
+      "size": 14632,
+      "sha256": "34328f9ffbf52c1293a4cecd05b7feed966e0e67d600933357abe15afa1078a8"
+    },
+    {
+      "path": "src/view.py",
+      "size": 5997,
+      "sha256": "e833bf47d9e6cfde79d1af569ed1c848079b76e9e062567ea4ad3c74ab199ce8"
+    }
+  ]
+}

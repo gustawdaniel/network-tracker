@@ -1,0 +1,18 @@
+[Unit]
+Description=Brain Pi-hole DNS Query Synchronizer to ClickHouse
+Documentation=https://github.com/gustawdaniel/brain
+After=network-online.target pihole-FTL.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=daniel
+Group=pihole
+ExecStart=/usr/bin/env python3 %h/apps/network-tracker/src/pihole_sync.py --batch-size 10000 --batch-pause 0.05
+Nice=19
+CPUSchedulingPolicy=idle
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

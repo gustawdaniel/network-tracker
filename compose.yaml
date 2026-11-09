@@ -1,0 +1,11 @@
+services:
+  network-tracker:
+    build: .
+    image: brain-network-tracker:latest
+    container_name: brain-network-tracker
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8781:8780"
+    environment:
+      - PORT=8780
+      - CLICKHOUSE_URL=http://clickhouse:8123
