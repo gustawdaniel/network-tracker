@@ -1,8 +1,12 @@
 {
   "target": "network-tracker",
   "repo": "gustawdaniel/network-tracker",
+  "monorepo_sha": "25c9440886fcc7ec3e375eb8e365ffaacd00b302",
+  "monorepo_tag": "v2026.11.1",
+  "monorepo_ref": "v2026.11.1",
+  "timestamp": "2026-11-09T16:54:01.965266+00:00",
   "files_count": 19,
-  "total_size_bytes": 137787,
+  "total_size_bytes": 137785,
   "files": [
     {
       "path": "CONTRIBUTING.md",
@@ -31,8 +35,8 @@
     },
     {
       "path": "SECURITY.md",
-      "size": 863,
-      "sha256": "518f69d89ff25f7cdcfbaed937df7ead83ce5970739b443977958d18321e589f"
+      "size": 861,
+      "sha256": "1f5d5b6fc6e469ef70ad958767e44284b8520ac8ad4e34c151b34e1557d756e1"
     },
     {
       "path": "compose.yaml",

@@ -14,6 +14,6 @@ Only the latest release tag of Brain OS and its standalone tools receives securi
 **Please do not report security vulnerabilities through public GitHub issues or pull requests.**
 
 If you discover a security vulnerability, private data leak, or security flaw:
-1. Send an email report to security@gustawdaniel.com (or contact the maintainer directly via encrypted channel).
+1. Send an email report to gustaw.daniel@gmail.com (or contact the maintainer directly via encrypted channel).
 2. Include a detailed description of the vulnerability, steps to reproduce, and potential impact.
 3. We will acknowledge receipt of your report within 48 hours and work with you to validate and mitigate the issue before public disclosure.
